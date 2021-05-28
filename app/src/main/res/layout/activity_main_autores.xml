@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/tools"
+    android:background="@drawable/gradient_draw"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    app:context="cu.sld.hlucia.corads.MainAutores"
+    android:orientation="vertical"
+    xmlns:res-auto="http://schemas.android.com/apk/res-auto"
+    app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"
+    app:ignore="NamespaceTypo">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/CardView7.1"
+            android:background="@android:color/white"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8.0dip"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_marginRight="8.0dip"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            res-auto:cardCornerRadius="3.0dip"
+            res-auto:cardElevation="4.0dip">
+            <RelativeLayout
+                android:padding="@dimen/activity_vertical_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/imageView117.1"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="33dp"
+                        android:background="@color/white_transparent"
+                        android:src="@drawable/jose" />
+
+                    <TextView
+                        android:id="@+id/textView117.1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:text=""
+                        android:fontFamily="@font/fontawesome"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:textColor="?colorPrimary" />
+                    <TextView 	android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="?colorPrimary"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:layout_below="@id/textView117.1"
+                        android:layout_alignLeft="@id/textView117.1" />
+
+                    <View	android:id="@+id/separador117.1"
+                        android:background="@color/colorPrimary"
+                        android:layout_width="fill_parent"
+                        android:layout_height="1.0dip"
+                        android:layout_marginTop="10dp"
+                        android:layout_below="@id/imageView117.1" />
+
+                    <TextView 	android:textColor="?colorPrimary"
+                        android:id="@+id/textView317.1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:layout_below="@id/separador117.1"
+                        android:layout_alignParentLeft="true" />
+
+                    <TextView
+                        android:id="@+id/textView417.1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/textView317.1"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="3dp"
+                        android:fontFamily="@font/fontawesome"
+                        android:text="@string/Jose"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:textColor="?colorPrimary"
+                        android:textSize="14sp" />
+                    <View	android:id="@+id/separador217.1"
+                        android:background="@color/colorPrimary"
+                        android:layout_width="fill_parent"
+                        android:layout_height="1.0dip"
+                        android:layout_marginTop="10dp"
+                        android:layout_below="@id/textView417.1" />
+
+                    <TextView	android:textColor="?colorPrimary"
+                        android:id="@+id/textView517.1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/fontawesome"
+                        android:text="Contactame en:"
+                        android:gravity="center_horizontal"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="25dp"
+                        android:layout_below="@id/separador217.1"/>
+
+                    <TableLayout	android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:stretchColumns="*"
+                        android:layout_marginTop="25dp"
+                        android:layout_below="@id/textView517.1"
+                        android:layout_alignParentLeft="true">
+                        <TableRow android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="1.0">
+                            <LinearLayout android:gravity="center"
+                                android:layout_width="48.0dip"
+                                android:layout_height="48.0dip">
+                                <LinearLayout android:gravity="center"
+                                    android:id="@+id/main_action_about_social_facebook171"
+                                    android:padding="3.0dip"
+                                    android:clickable="true"
+                                    android:layout_width="48.0dip"
+                                    android:layout_height="48.0dip"
+                                    android:onClick="onClickFacebook"
+                                    app:ignore="OnClick">
+                                    <ImageView
+                                        android:layout_width="32.0dip"
+                                        android:layout_height="32.0dip"
+                                        android:src="@drawable/facebook_circled_480px" />
+                                </LinearLayout>
+                            </LinearLayout>
+                            <LinearLayout android:gravity="center"
+                                android:layout_width="48.0dip"
+                                android:layout_height="48.0dip">
+                                <LinearLayout android:gravity="center"
+                                    android:id="@+id/moviljose"
+                                    android:padding="3.0dip"
+                                    android:clickable="true"
+                                    android:layout_width="48.0dip"
+                                    android:layout_height="48.0dip"
+                                    android:onClick="onClickOrci"
+                                    app:ignore="OnClick">
+                                    <ImageView
+                                        android:layout_width="32.0dip"
+                                        android:layout_height="32.0dip"
+                                        android:src="@drawable/movil" />
+                                </LinearLayout>
+                            </LinearLayout>
+                            <LinearLayout android:gravity="center"
+                                android:layout_width="48.0dip"
+                                android:layout_height="48.0dip">
+                                <LinearLayout android:gravity="center"
+                                    android:id="@+id/main_action_about_email1771"
+                                    android:padding="3.0dip"
+                                    android:clickable="true"
+                                    android:autoLink="email"
+                                    android:layout_width="48.0dip"
+                                    android:layout_height="48.0dip"
+                                    android:onClick="onClickGmail"
+                                    app:ignore="OnClick">
+                                    <ImageView
+                                        android:layout_width="32.0dip"
+                                        android:layout_height="32.0dip"
+                                        android:src="@drawable/mail_48px" />
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <LinearLayout android:gravity="center"
+                                android:id="@+id/main_action_about_social_whatsapp171"
+                                android:padding="3.0dip"
+                                android:clickable="true"
+                                android:layout_width="48.0dip"
+                                android:layout_height="48.0dip"
+                                android:onClick="onClickwhatsapp"
+                                app:ignore="OnClick">
+
+                                <ImageView
+                                    android:layout_width="32.0dip"
+                                    android:layout_height="32.0dip"
+                                    android:src="@drawable/whatsapp_480px" />
+                            </LinearLayout>
+                        </TableRow>
+                    </TableLayout>
+                </RelativeLayout>
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/CardView7"
+            android:layout_below="@id/CardView7.1"
+            android:background="@android:color/white"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8.0dip"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_marginRight="8.0dip"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            res-auto:cardCornerRadius="3.0dip"
+            res-auto:cardElevation="4.0dip">
+            <RelativeLayout
+                android:padding="@dimen/activity_vertical_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/imageView117"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="33dp"
+                        android:background="@color/white_transparent"
+                        android:src="@drawable/alex" />
+
+                    <TextView
+                        android:id="@+id/textView117"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:text=""
+                        android:fontFamily="@font/fontawesome"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:textColor="?colorPrimary" />
+                    <TextView 	android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="?colorPrimary"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:layout_below="@id/textView117"
+                        android:layout_alignLeft="@id/textView117" />
+
+                    <View	android:id="@+id/separador117"
+                        android:background="@color/colorPrimary"
+                        android:layout_width="fill_parent"
+                        android:layout_height="1.0dip"
+                        android:layout_marginTop="10dp"
+                        android:layout_below="@id/imageView117" />
+
+                    <TextView 	android:textColor="?colorPrimary"
+                        android:id="@+id/textView317"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:layout_below="@id/separador117"
+                        android:layout_alignParentLeft="true" />
+
+                    <TextView
+                        android:id="@+id/textView417"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/textView317"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="3dp"
+                        android:fontFamily="@font/fontawesome"
+                        android:text="@string/Alexis"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:textColor="?colorPrimary"
+                        android:textSize="14sp" />
+                    <View	android:id="@+id/separador217"
+                        android:background="@color/colorPrimary"
+                        android:layout_width="fill_parent"
+                        android:layout_height="1.0dip"
+                        android:layout_marginTop="10dp"
+                        android:layout_below="@id/textView417" />
+
+                    <TextView	android:textColor="?colorPrimary"
+                        android:id="@+id/textView517"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/fontawesome"
+                        android:text="Contactame en:"
+                        android:gravity="center_horizontal"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="25dp"
+                        android:layout_below="@id/separador217"/>
+
+                    <TableLayout	android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:stretchColumns="*"
+                        android:layout_marginTop="25dp"
+                        android:layout_below="@id/textView517"
+                        android:layout_alignParentLeft="true">
+                        <TableRow android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="1.0">
+                            <LinearLayout android:gravity="center"
+                                android:layout_width="48.0dip"
+                                android:layout_height="48.0dip">
+                                <LinearLayout android:gravity="center"
+                                    android:id="@+id/main_action_about_social_facebook17"
+                                    android:padding="3.0dip"
+                                    android:clickable="true"
+                                    android:layout_width="48.0dip"
+                                    android:layout_height="48.0dip"
+                                    android:onClick="onClickFacebook"
+                                    app:ignore="OnClick">
+                                    <ImageView
+                                        android:layout_width="32.0dip"
+                                        android:layout_height="32.0dip"
+                                        android:src="@drawable/facebook_circled_480px" />
+                                </LinearLayout>
+                            </LinearLayout>
+                            <LinearLayout android:gravity="center"
+                                android:layout_width="48.0dip"
+                                android:layout_height="48.0dip">
+                                <LinearLayout
+                                    android:gravity="center"
+                                    android:id="@+id/main_action_about_social_twitter17"
+                                    android:padding="3.0dip"
+                                    android:clickable="true"
+                                    android:layout_width="48.0dip"
+                                    android:layout_height="48.0dip"
+                                    android:onClick="onClickTwitter"
+                                    app:ignore="OnClick">
+
+                                    <ImageView
+                                        android:layout_width="32.0dip"
+                                        android:layout_height="32.0dip"
+                                        android:src="@drawable/twitter_circled_480px" />
+                                </LinearLayout>
+                            </LinearLayout>
+                            <LinearLayout android:gravity="center"
+                                android:layout_width="48.0dip"
+                                android:layout_height="48.0dip">
+                                <LinearLayout android:gravity="center"
+                                    android:id="@+id/movilalexis"
+                                    android:padding="3.0dip"
+                                    android:clickable="true"
+                                    android:layout_width="48.0dip"
+                                    android:layout_height="48.0dip"
+                                    android:onClick="onClickOrci"
+                                    app:ignore="OnClick">
+                                    <ImageView
+                                        android:layout_width="32.0dip"
+                                        android:layout_height="32.0dip"
+                                        android:src="@drawable/movil" />
+                                </LinearLayout>
+                            </LinearLayout>
+                            <LinearLayout android:gravity="center"
+                                android:layout_width="48.0dip"
+                                android:layout_height="48.0dip">
+                                <LinearLayout android:gravity="center"
+                                    android:id="@+id/main_action_about_email17"
+                                    android:padding="3.0dip"
+                                    android:clickable="true"
+                                    android:autoLink="email"
+                                    android:layout_width="48.0dip"
+                                    android:layout_height="48.0dip"
+                                    android:onClick="onClickGmail"
+                                    app:ignore="OnClick">
+                                    <ImageView
+                                        android:layout_width="32.0dip"
+                                        android:layout_height="32.0dip"
+                                        android:src="@drawable/mail_48px" />
+                                </LinearLayout>
+                            </LinearLayout>
+                               <LinearLayout android:gravity="center"
+                                android:id="@+id/main_action_about_social_whatsapp17"
+                                android:padding="3.0dip"
+                                android:clickable="true"
+                                android:layout_width="48.0dip"
+                                android:layout_height="48.0dip"
+                                android:onClick="onClickwhatsapp"
+                                app:ignore="OnClick">
+
+                                <ImageView
+                                    android:layout_width="32.0dip"
+                                    android:layout_height="32.0dip"
+                                    android:src="@drawable/whatsapp_480px" />
+                            </LinearLayout>
+                        </TableRow>
+                    </TableLayout>
+                </RelativeLayout>
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+
+        <androidx.cardview.widget.CardView
+            android:background="@android:color/white"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8.0dip"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_marginRight="8.0dip"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            res-auto:cardCornerRadius="3.0dip"
+            android:layout_below="@id/CardView7"
+            res-auto:cardElevation="4.0dip">
+            <RelativeLayout
+                android:padding="@dimen/activity_vertical_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/imageView118"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="33dp"
+                        android:background="@color/white_transparent"
+                        android:src="@drawable/eyris" />
+
+                    <TextView
+                        android:id="@+id/textView118"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:text=""
+                        android:fontFamily="@font/fontawesome"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:textColor="?colorPrimary" />
+                    <TextView 	android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="?colorPrimary"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:layout_below="@id/textView118"
+                        android:layout_alignLeft="@id/textView118" />
+
+                    <View	android:id="@+id/separador118"
+                        android:background="@color/colorPrimary"
+                        android:layout_width="fill_parent"
+                        android:layout_height="1.0dip"
+                        android:layout_marginTop="10dp"
+                        android:layout_below="@id/imageView118" />
+
+                    <TextView 	android:textColor="?colorPrimary"
+                        android:id="@+id/textView318"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:layout_below="@id/separador118"
+                        android:layout_alignParentLeft="true" />
+
+                    <TextView
+                        android:id="@+id/textView418"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/textView318"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="3dp"
+                        android:fontFamily="@font/fontawesome"
+                        android:text="@string/erick"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:textColor="?colorPrimary"
+                        android:textSize="14sp" />
+                    <View	android:id="@+id/separador218"
+                        android:background="@color/colorPrimary"
+                        android:layout_width="fill_parent"
+                        android:layout_height="1.0dip"
+                        android:layout_marginTop="10dp"
+                        android:layout_below="@id/textView418" />
+
+                    <TextView	android:textColor="?colorPrimary"
+                        android:id="@+id/textView518"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/fontawesome"
+                        android:text="Contactame en:"
+                        android:gravity="center_horizontal"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="25dp"
+                        android:layout_below="@id/separador218"/>
+
+                    <TableLayout	android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:stretchColumns="*"
+                        android:layout_marginTop="25dp"
+                        android:layout_below="@id/textView518"
+                        android:layout_alignParentLeft="true">
+                        <TableRow android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="1.0">
+                            <LinearLayout android:gravity="center"
+                                android:layout_width="48.0dip"
+                                android:layout_height="48.0dip">
+                                <LinearLayout android:gravity="center"
+                                    android:id="@+id/main_action_about_social_facebook18"
+                                    android:padding="3.0dip"
+                                    android:clickable="true"
+                                    android:layout_width="48.0dip"
+                                    android:layout_height="48.0dip"
+                                    android:onClick="onClickFacebook"
+                                    app:ignore="OnClick">
+                                    <ImageView
+                                        android:layout_width="32.0dip"
+                                        android:layout_height="32.0dip"
+                                        android:src="@drawable/facebook_circled_480px" />
+                                </LinearLayout>
+                            </LinearLayout>
+                            <LinearLayout android:gravity="center"
+                                android:layout_width="48.0dip"
+                                android:layout_height="48.0dip">
+                                <LinearLayout android:gravity="center"
+                                    android:id="@+id/main_action_about_social_twitter18"
+                                    android:padding="3.0dip"
+                                    android:clickable="true"
+                                    android:layout_width="48.0dip"
+                                    android:layout_height="48.0dip"
+                                    android:onClick="onClickTwitter"
+                                    app:ignore="OnClick">
+                                    <ImageView
+                                        android:layout_width="32.0dip"
+                                        android:layout_height="32.0dip"
+                                        android:src="@drawable/twitter_circled_480px" />
+                                </LinearLayout>
+                            </LinearLayout>
+                            <LinearLayout android:gravity="center"
+                                android:layout_width="48.0dip"
+                                android:layout_height="48.0dip">
+                                <LinearLayout android:gravity="center"
+                                    android:id="@+id/movilerick"
+                                    android:padding="3.0dip"
+                                    android:clickable="true"
+                                    android:layout_width="48.0dip"
+                                    android:layout_height="48.0dip"
+                                    android:onClick="onClickOrci"
+                                    app:ignore="OnClick">
+                                    <ImageView
+                                        android:layout_width="32.0dip"
+                                        android:layout_height="32.0dip"
+                                        android:src="@drawable/movil" />
+                                </LinearLayout>
+                            </LinearLayout>
+                            <LinearLayout android:gravity="center"
+                                android:layout_width="48.0dip"
+                                android:layout_height="48.0dip">
+                                <LinearLayout android:gravity="center"
+                                    android:id="@+id/main_action_about_email18"
+                                    android:padding="3.0dip"
+                                    android:clickable="true"
+                                    android:autoLink="email"
+                                    android:layout_width="48.0dip"
+                                    android:layout_height="48.0dip"
+                                    android:onClick="onClickGmail"
+                                    app:ignore="OnClick">
+                                    <ImageView
+                                        android:layout_width="32.0dip"
+                                        android:layout_height="32.0dip"
+                                        android:src="@drawable/mail_48px" />
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <LinearLayout android:gravity="center"
+                                android:id="@+id/main_action_about_social_whatsapp18"
+                                android:padding="3.0dip"
+                                android:clickable="true"
+                                android:layout_width="48.0dip"
+                                android:layout_height="48.0dip"
+                                android:onClick="onClickwhatsapp"
+                                app:ignore="OnClick">
+
+                                <ImageView
+                                    android:layout_width="32.0dip"
+                                    android:layout_height="32.0dip"
+                                    android:src="@drawable/whatsapp_480px" />
+                            </LinearLayout>
+                        </TableRow>
+                    </TableLayout>
+                </RelativeLayout>
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+</androidx.core.widget.NestedScrollView>

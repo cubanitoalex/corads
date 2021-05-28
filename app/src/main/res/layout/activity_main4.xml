@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_draw"
+    tools:context=".MainActivity4">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <RelativeLayout
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+
+
+
+<TextView
+android:id="@+id/textView34"
+android:textSize="14sp"
+android:padding="5sp"
+android:justificationMode="inter_word"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="@string/B1" />
+<TextView
+android:id="@+id/urlb1"
+android:layout_below="@+id/textView34"
+android:textSize="14sp"
+android:padding="5sp"
+android:autoLink="web"
+android:justificationMode="inter_word"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="https://www.ncbi.nlm.nih.gov/pubmed/32125453" />
+
+<TextView
+android:id="@+id/textView35"
+android:layout_below="@+id/urlb1"
+android:textSize="14sp"
+android:padding="5sp"
+android:justificationMode="inter_word"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="@string/B2" />
+<TextView
+android:id="@+id/urlb2"
+android:layout_below="@+id/textView35"
+android:textSize="14sp"
+android:padding="5sp"
+android:autoLink="web"
+android:justificationMode="inter_word"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7088323/" />
+
+<TextView
+android:id="@+id/textView36"
+android:layout_below="@+id/urlb2"
+android:textSize="14sp"
+android:padding="5sp"
+android:justificationMode="inter_word"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="@string/B3" />
+<TextView
+android:id="@+id/urlb3"
+android:layout_below="@+id/textView36"
+android:textSize="14sp"
+android:padding="5sp"
+android:autoLink="web"
+android:justificationMode="inter_word"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7080117/" />
+
+
+
+<TextView
+android:id="@+id/textView37"
+android:layout_below="@+id/urlb3"
+android:textSize="14sp"
+android:padding="5sp"
+android:justificationMode="inter_word"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="@string/B4" />
+<TextView
+android:id="@+id/urlb4"
+android:layout_below="@+id/textView37"
+android:textSize="14sp"
+android:padding="5sp"
+android:autoLink="web"
+android:justificationMode="inter_word"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7089199/" />
+
+
+<TextView
+android:id="@+id/textView38"
+android:layout_below="@+id/urlb4"
+android:textSize="14sp"
+android:padding="5sp"
+android:justificationMode="inter_word"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="@string/B5" />
+<TextView
+android:id="@+id/urlb5"
+android:layout_below="@+id/textView38"
+android:textSize="14sp"
+android:padding="5sp"
+android:autoLink="web"
+android:justificationMode="inter_word"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7039714/" />
+
+<TextView
+android:id="@+id/textView39"
+android:layout_below="@+id/urlb5"
+android:textSize="14sp"
+android:padding="5sp"
+android:justificationMode="inter_word"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="@string/B6" />
+<TextView
+android:id="@+id/urlb6"
+android:layout_below="@+id/textView39"
+android:textSize="14sp"
+android:padding="5sp"
+android:autoLink="web"
+android:justificationMode="inter_word"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7127800/" />
+
+<TextView
+android:id="@+id/textView40"
+android:layout_below="@+id/urlb6"
+android:textSize="14sp"
+android:padding="5sp"
+android:justificationMode="inter_word"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="@string/B7" />
+<TextView
+android:id="@+id/urlb7"
+android:layout_below="@+id/textView40"
+android:textSize="14sp"
+android:padding="5sp"
+android:autoLink="web"
+android:justificationMode="inter_word"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7231166/" />
+
+
+<TextView
+android:id="@+id/textView41"
+android:layout_below="@+id/urlb7"
+android:textSize="14sp"
+android:padding="5sp"
+android:justificationMode="inter_word"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="@string/B8" />
+<TextView
+android:id="@+id/urlb8"
+android:layout_below="@+id/textView41"
+android:textSize="14sp"
+android:padding="5sp"
+android:autoLink="web"
+android:justificationMode="inter_word"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7187672/" />
+
+<TextView
+android:id="@+id/textView42"
+android:layout_below="@+id/urlb8"
+android:textSize="14sp"
+android:padding="5sp"
+android:justificationMode="inter_word"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="@string/B9" />
+
+<TextView
+android:id="@+id/textView43"
+android:layout_below="@+id/textView42"
+android:textSize="14sp"
+android:padding="5sp"
+android:justificationMode="inter_word"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="@string/B10" />
+<TextView
+android:id="@+id/urlb9"
+android:layout_below="@+id/textView43"
+android:textSize="14sp"
+android:padding="5sp"
+android:autoLink="web"
+android:justificationMode="inter_word"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7131901/" />
+
+<TextView
+android:id="@+id/textView44"
+android:layout_below="@+id/urlb9"
+android:textSize="14sp"
+android:padding="5sp"
+android:justificationMode="inter_word"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="@string/B11" />
+<TextView
+android:id="@+id/urlb10"
+android:layout_below="@+id/textView44"
+android:textSize="14sp"
+android:padding="5sp"
+android:autoLink="web"
+android:justificationMode="inter_word"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7077191/" />
+
+
+
+<TextView
+android:id="@+id/textView45"
+android:layout_below="@+id/urlb10"
+android:textSize="14sp"
+android:padding="5sp"
+android:justificationMode="inter_word"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="@string/B12" />
+<TextView
+android:id="@+id/urlb11"
+android:layout_below="@+id/textView45"
+android:textSize="14sp"
+android:padding="5sp"
+android:autoLink="web"
+android:justificationMode="inter_word"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7230578/" />
+
+<TextView
+android:id="@+id/textView46"
+android:layout_below="@+id/urlb11"
+android:textSize="14sp"
+android:padding="5sp"
+android:justificationMode="inter_word"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="@string/B13" />
+<TextView
+android:id="@+id/urlb12"
+android:layout_below="@+id/textView46"
+android:textSize="14sp"
+android:padding="5sp"
+android:autoLink="web"
+android:justificationMode="inter_word"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7211083/" />
+
+<TextView
+android:id="@+id/textView47"
+android:layout_below="@+id/urlb12"
+android:textSize="14sp"
+android:padding="5sp"
+android:justificationMode="inter_word"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="@string/B14" />
+<TextView
+android:id="@+id/urlb13"
+android:layout_below="@+id/textView47"
+android:textSize="14sp"
+android:padding="5sp"
+android:autoLink="web"
+android:justificationMode="inter_word"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7198427/" />
+
+
+
+<TextView
+android:id="@+id/textView48"
+android:layout_below="@+id/urlb13"
+android:textSize="14sp"
+android:padding="5sp"
+android:justificationMode="inter_word"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="@string/B15" />
+<TextView
+android:id="@+id/urlb14"
+android:layout_below="@+id/textView48"
+android:textSize="14sp"
+android:padding="5sp"
+android:autoLink="web"
+android:justificationMode="inter_word"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="https://www.ncbi.nlm.nih.gov/pmc/articles/PMCID:PMC7195991/" />
+
+
+<TextView
+android:id="@+id/textView49"
+android:layout_below="@+id/urlb14"
+android:textSize="14sp"
+android:padding="5sp"
+android:justificationMode="inter_word"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="@string/B16" />
+<TextView
+android:id="@+id/urlb15"
+android:layout_below="@+id/textView49"
+android:textSize="14sp"
+android:padding="5sp"
+android:autoLink="web"
+android:justificationMode="inter_word"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7186209/" />
+
+<TextView
+android:id="@+id/textView50"
+android:layout_below="@+id/urlb15"
+android:textSize="14sp"
+android:padding="5sp"
+android:justificationMode="inter_word"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="@string/B16" />
+<TextView
+android:id="@+id/urlb16"
+android:layout_below="@+id/textView50"
+android:textSize="14sp"
+android:padding="5sp"
+android:autoLink="web"
+android:justificationMode="inter_word"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7186209/" />
+
+
+<TextView
+android:id="@+id/textView51"
+android:layout_below="@+id/urlb16"
+android:textSize="14sp"
+android:padding="5sp"
+android:justificationMode="inter_word"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="@string/B17" />
+<TextView
+android:id="@+id/urlb17"
+android:layout_below="@+id/textView51"
+android:textSize="14sp"
+android:padding="5sp"
+android:autoLink="web"
+android:justificationMode="inter_word"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7235628/" />
+
+<TextView
+android:id="@+id/textView52"
+android:layout_below="@+id/urlb17"
+android:textSize="14sp"
+android:padding="5sp"
+android:justificationMode="inter_word"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="@string/B18" />
+<TextView
+android:id="@+id/urlb18"
+android:layout_below="@+id/textView52"
+android:textSize="14sp"
+android:padding="5sp"
+android:autoLink="web"
+android:justificationMode="inter_word"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7207172/" />
+
+
+
+<TextView
+android:id="@+id/textView53"
+android:layout_below="@+id/urlb18"
+android:textSize="14sp"
+android:padding="5sp"
+android:justificationMode="inter_word"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="@string/B19" />
+<TextView
+android:id="@+id/urlb19"
+android:layout_below="@+id/textView53"
+android:textSize="14sp"
+android:padding="5sp"
+android:autoLink="web"
+android:justificationMode="inter_word"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7182697/" />
+
+
+<TextView
+android:id="@+id/textView54"
+android:layout_below="@+id/urlb19"
+android:textSize="14sp"
+android:padding="5sp"
+android:justificationMode="inter_word"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="@string/B20" />
+<TextView
+android:id="@+id/urlb20"
+android:layout_below="@+id/textView54"
+android:textSize="14sp"
+android:padding="5sp"
+android:autoLink="web"
+android:justificationMode="inter_word"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7182697/" />
+
+
+<TextView
+android:id="@+id/textView55"
+android:layout_below="@+id/urlb20"
+android:textSize="14sp"
+android:padding="5sp"
+android:justificationMode="inter_word"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="@string/B21" />
+<TextView
+android:id="@+id/urlb21"
+android:layout_below="@+id/textView55"
+android:textSize="14sp"
+android:padding="5sp"
+android:autoLink="web"
+android:justificationMode="inter_word"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7167589/" />
+
+<TextView
+android:id="@+id/textView56"
+android:layout_below="@+id/urlb21"
+android:textSize="14sp"
+android:padding="5sp"
+android:justificationMode="inter_word"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="@string/B22" />
+<TextView
+android:id="@+id/urlb22"
+android:layout_below="@+id/textView56"
+android:textSize="14sp"
+android:padding="5sp"
+android:autoLink="web"
+android:justificationMode="inter_word"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7196717/" />
+
+
+<TextView
+android:id="@+id/textView57"
+android:layout_below="@+id/urlb22"
+android:textSize="14sp"
+android:padding="5sp"
+android:justificationMode="inter_word"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="@string/B23" />
+<TextView
+    android:layout_below="@+id/textView57"
+android:textSize="14sp"
+android:padding="5sp"
+android:autoLink="web"
+android:justificationMode="inter_word"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7173353/" />
+
+
+
+    </RelativeLayout>
+    </LinearLayout>
+    </ScrollView>
+
+
+
+
+    </LinearLayout>

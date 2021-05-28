@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">CO-RADS</string>
+    <string name="todo">TODO</string>
+    <string name="intro"><![CDATA[ <p> El coronavirus recién descubierto que emergió de la ciudad de Wuhan, en la provincia de Hubei (China), pertenece a una familia de virus que incluyen el virus del Síndrome Respiratorio Agudo Severo (SARS) y el virus del Síndrome Respiratorio del Medio Oriente (MERS). Se han identificado casos adicionales en un número creciente de países, incluido Estados Unidos.<b></b></p>
+<p>Según los informes, muchos de los pacientes iniciales del brote en Wuhan tenían algún vínculo con un gran mercado de mariscos y animales, lo que sugiere la propagación de animal a persona. El brote está aumentando rápidamente, con el reporte de miles de casos confirmados a nivel mundial.</p>
+<p>La actual pandemia ha suscitado la realización de variadas investigaciones científicas de forma acelerada con el fin de prevenir y tratar el nuevo coronavirus en vías de lograr el diagnóstico  oportuno de la enfermedad, empleando los nuevos  avances  de la medicina y los progresos científicos significativos que se registran hoy en día, siendo el diagnóstico por imagen un percursor de la determinación de este padecimiento.<b></b></p>
+<p>A pesar de que actualmente no recomiendan la radiografía  o Tomografía axial computarizada para diagnosticar COVID-19 ya que la prueba viral sigue siendo el único método específico de diagnóstico, los hallazgos radiológicos apuntan a  valorar la posible afectación pulmonar por el virus en el contexto de pandemia sobre la base de signos Imagenológico que esta enfermedad pone de manifiesto.</p>
+<p>Hasta el momento todas las  recomendaciones están en continua revisión y serán modificadas  de acuerdo al contexto si  la situación epidemiológica así lo requiriese.</p>
+]]></string>
+    <string name="A1"><![CDATA[ • Los Centros para el Control de Enfermedades actualmente no recomiendan la radiografía (Rx) o tomografía (TC) para diagnosticar COVID-19. La prueba viral sigue siendo el único método específico de diagnóstico. Se requiere confirmación con la prueba viral, incluso si los hallazgos radiológicos sugieren COVID-19 en el Rx o las TC.]]></string>
+    <string name="A2"><![CDATA[ • Para la prueba de diagnóstico inicial de sospecha de infección por COVID-19, se recomienda recolectar y analizar muestras del tracto respiratorio superior (a través de hisopos nasofaríngeos y orofaríngeos) o del tracto respiratorio inferior cuando estén disponibles para pruebas virales.]]></string>
+    <string name="A3"><![CDATA[ • Los hallazgos en las imágenes de tórax en COVID-19 no son específicos y se superponen con otras infecciones, como influenza: H1N1, SARS y MERS. Dado que el COVID-19 está en medio de la temporada actual de gripe con una alta prevalencia, se limita aún más la especificidad de la Tomografía.]]></string>
+    <string name="A4"><![CDATA[ <p> La realización de Tomografía computarizada ( TC )  implica la necesidad de descontaminación de áreas y equipos con cada paciente, inhabilitando las salas de radiodiagnóstico por tiempos prolongados, lo que limita su uso como estudio de rutina; no obstante, de estar disponible se considerará una excelente herramienta de apoyo en el diagnóstico.</p>
+Si se realiza TC de tórax sin contraste intravenoso, valorar posible afectación pulmonar por COVID-19 en contexto de pandemia tener en cuenta los siguientes hallazgos tomográfico.
+]]></string>
+    <string name="A5"><![CDATA[ &#9658;Opacidades en vidrio deslustrado: aumento difuso de la densidad pulmonar que no borra los vasos.<br>
+&#9658;Patrón reticular (engrosamiento de septos inter +/- intralobulillares).<br>
+&#9658;Patrón en empedrado (patrón reticular + vidrio deslustrado).<br>
+&#9658;Consolidación alveolar / neumonía organizada.<br>
+&#9658;Signo del halo invertido.]]></string>
+
+    <string name="A6"><![CDATA[ &#9658;Lesiones poco probables de COVID-19  (Lesiones no típicas no excluir diagnóstico): Derrame pleural, Adenopatías, Fibrosis o penalización.<br>
+&#9658;Patologías alternativas (NO se puede excluir concomitancia): Lesión con alta probabilidad de cáncer de pulmón, Edema agudo de pulmón, Cavitación, patrón árbol en brote, Neumonía.
+]]></string>
+    <string name="A7"><![CDATA[ Con base en ello, surgió la clasificación CO-RADS, la cual es un sistema de notificación estandarizado para pacientes con sospecha de infección por COVID-19; ésta asigna un nivel de sospecha para la enfermedad según los hallazgos encontrados en la imagen por Tomográfica . ]]></string>
+
+    <string name="A8"><![CDATA[ Éstos van desde muy bajo, CO-RADS 1, hasta muy alto, CO-RADS 5, y CO-RADS 6 que  corresponde a pacientes con hallazgos típicos y PCR positivo.]]></string>
+    <string name="A9"><![CDATA[ <p>Se ha considerado a la radiografía portátil de tórax como una alternativa para el abordaje inicial o triaje de los pacientes con COVID-19.</p>
+<p>Si se realiza radiografía de tórax, valorar posible afectación pulmonar por COVID-19 en contexto de pandemia sobre la base se los siguientes hallazgos radiológicos:</p>
+<p>1.Parénquima pulmonar: Opacidad  que recuerda patrón intersticial dado por la afectación del intersticio pulmonar por aumento patológico de uno a varios componentes.</p>
+<p>2.Distribución: Periférica, Central o Difusa.</p>
+<p>3.Campos pulmonares afectados: derecho o izquierdo ( superior ,medio , inferior ).</p>
+Cualquiera de estos hallazgos en  uno  ó más lóbulos con distribución periférica o difusa  pensar en Diagnóstico de COVID-19.<b>( Figura 1)</b><br>
+<p>4.Otros hallazgos relevantes:</p>
+<p>&#9658;Lesiones poco probables de COVID-19  (Lesiones no típicas , no excluir diagnóstico): Derrame pleural, Adenopatías, Fibrosis.</p>
+&#9658;Patologías alternativas (NO se puede excluir concomitancia) :Lesión con alta probabilidad de cáncer de pulmón ,Edema agudo de pulmón, Cavitación ,Neumonía lobar, Cardiomegalia.
+]]></string>
+    <string name="A10"><![CDATA[ Radiografía de Tórax simple en proyección posteroanterior que muestra opacidad de distribución periférica y difusa en contexto de pandemia  que sugiere COVID-19. ]]></string>
+
+    <string name="A11"><![CDATA[ <p>Para cuantificar la afectación pulmonar, se calculó una puntuación de gravedad adaptando y simplificando la puntuación de la evaluación radiográfica del edema pulmonar (RALE) propuesta por Warren y colaboradores. Se consideran ocho puntos según la extensión radiológica de la afectación pulmonar. Para su cálculo se divide visualmente en cuatro partes cada pulmón, partiendo del hilio pulmonar como punto medio. Cada cuadro resultante corresponderá a 25% del parénquima pulmonar y cada pulmón se puntuará de 0 a 4 según el porcentaje de extensión de las consolidaciones o radiopacidades.</p>
+Representación de la escala RALE adaptada. La división de cada pulmón en cuadrantes representa 25%, 1 punto que al final se suma para obtener el puntaje acerca de la gravedad ]]></string>
+
+    <string name="A12"><![CDATA[ <p>Gravedad radiológica determinada por puntaje.</p>
+Ejemplos:
+<p>A1 cuadrante del pulmón derecho 25%; 1 punto: leve.</p>
+<p>B2 cuadrante del pulmón derecho 50% + 1 cuadrante del pulmón izquierdo 25%; 3 puntos: moderado.</p>
+<p>C1 cuadrante del pulmón derecho 25% + 3 cuadrantes del pulmón izquierdo 75%; 4 puntos: moderado.</p>
+<p>D4 cuadrante del pulmón derecho 100% + 3 cuadrantes del pulmón izquierdo 75%; 7 puntos: severo.</p> ]]></string>
+    <string name="A13"><![CDATA[ Actualmente se ha recurrido a la ecografía pulmonar como una modalidad alternativa de la Imagenologia  , los protocolos desarrollados indican que los hallazgos de los pacientes con COVID-19 está dado por  un engrosamiento de la pleura, líneas B, consolidaciones subpleurales y otros artefactos característicos de la ecografía pulmonar para lo cual se ha diseñado un modelo de severidad de la afectación pulmonar  ]]></string>
+
+    <string name="A14"><![CDATA[ Los protocolos de adquisición incluyen las siguientes recomendaciones:</br>
+<p>&#9658; Uso de sondas lineales, ya que pueden capturar mejor el detalle de los artefactos pleurales y subpleurales; las sondas convexas también son apropiadas.</p>
+<p>&#9658; Usar una modalidad de punto focal único en la línea pleural, en lugar de enfocarse en múltiples ubicaciones.</p>
+<p>&#9658; Las exploraciones se deben realizar preferiblemente en los espacios intercostales, en lugar de una vista ortogonal de las costillas. Esto permite a los médicos ver la superficie más amplia posible con un solo examen.</p>
+<p>&#9658; Se deben buscar artefactos en múltiples áreas y bilateralmente para ver la extensión de la superficie pulmonar afectada, específicamente en las secciones apical, medial y basal de las secciones paraclavicular anterior, mediaclavicular y posterior, y en las áreas axilares lateral apical y basal.</p>
+
+ ]]></string>
+
+
+    <string name="B1"><![CDATA[1.	Zhang W. Imaging changes of severe COVID-19 pneumonia in advanced stage. Intensive Care Med. 2020 Mar 2:1–3. doi: 10.1007/s00134-020-05990-y. Epub ahead of print. PMID: 32123986; PMCID: PMC7080018. Disponible en:]]> </string>
+    <string name="B2"><![CDATA[2.	Ye Z, Zhang Y, Wang Y, Huang Z, Song B. Chest CT manifestations of new coronavirus disease 2019 (COVID-19): a pictorial review. Eur Radiol. 2020 Mar 19:1–9. doi: 10.1007/s00330-020-06801-0. Epub ahead of print. PMCID: PMC7088323. Disponible en:]]></string>
+    <string name="B3"><![CDATA[3.	Xu X, Yu C, Qu J, Zhang L, Jiang S, Huang D, Chen B, Zhang Z, Guan W, Ling Z, Jiang R, Hu T, Ding Y, Lin L, Gan Q, Luo L, Tang X, Liu J. Imaging and clinical features of patients with 2019 novel coronavirus SARS-CoV-2. Eur J Nucl Med Mol Imaging. 2020 Feb 28:1–6. doi: 10.1007/s00259-020-04735-9. Epub ahead of print. PMID: 32107577; PMCID: PMC7080117.  Disponible en:]]></string>
+    <string name="B4"><![CDATA[4.   Nakajima K, Kato H, Yamashiro T, Izumi T, Takeuchi I, Nakajima H, Utsunomiya D. COVID-19 pneumonia: infection control protocol inside computed tomography suites. Jpn J Radiol. 2020 Mar 17:1–3. doi: 10.1007/s11604-020-00948-y. Epub ahead of print. PMCID: PMC7089199.  Disponible en:]]></string>
+    <string name="B5"><![CDATA[5.	Lin X, Gong Z, Xiao Z, Xiong J, Fan B, Liu J. Novel Coronavirus Pneumonia Outbreak in 2019: Computed Tomographic Findings in Two Cases. Korean J Radiol. 2020 Mar;21(3):365-368. doi: 10.3348/kjr.2020.0078. Epub 2020 Feb 11. PMID: 32056397; PMCID: PMC7039714.  Disponible en:]]></string>
+    <string name="B6"><![CDATA[6.	Lai CC, Shih TP, Ko WC, Tang HJ, Hsueh PR. Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) and coronavirus disease-2019 (COVID-19): The epidemic and the challenges. Int J Antimicrob Agents. 2020 Mar;55(3):105924. doi: 10.1016/j.ijantimicag.2020.105924. Epub 2020 Feb 17. PMID: 32081636; PMCID: PMC7127800. Disponible en:]]></string>
+    <string name="B7"><![CDATA[7.	Huang J, Song W, Huang H, Sun Q. Pharmacological Therapeutics Targeting RNA-Dependent RNA Polymerase, Proteinase and Spike Protein: From Mechanistic Studies to Clinical Trials for COVID-19. J Clin Med. 2020 Apr 15;9(4):1131. doi: 10.3390/jcm9041131. PMID: 32326602; PMCID: PMC7231166. Disponible en:]]></string>
+    <string name="B8"><![CDATA[8.	Tay MZ, Poh CM, Rénia L, MacAry PA, Ng LFP. The trinity of COVID-19: immunity, inflammation and intervention. Nat Rev Immunol. 2020 Apr 28:1–12. doi: 10.1038/s41577-020-0311-8. Epub ahead of print. PMID: 32346093; PMCID: PMC7187672. Disponible en:]]></string>
+    <string name="B9"><![CDATA[9.	Chu H, Chan JFW, Yuen TTT, Shuai H, Yuan S, Wang Y, Hu B, Yip CCY, Tsang JOL, Huang X, Chai Y, Yang D, Hou Y, Chik KKH, Zhang X, Fung AYF, Tsoi HW, Cai JP, Chan WM, Ip JD, Chu AWH, Zhou J, Lung DC, Kok KH, To KKW, Tsang OTY, Chan KH, Yuen KY. Comparative tropism, replication kinetics, and cell damage profiling of SARS-CoV-2 and SARS-CoV with implications for clinical manifestations, transmissibility, and laboratory studies of COVID-19: an observational study. The Lancet Microbe. 2020 May;1(1):e14–23.]]></string>
+    <string name="B10"><![CDATA[10.	Kim ES, Chin BS, Kang CK, Kim NJ, Kang YM, Choi JP, Oh DH, Kim JH, Koh B, Kim SE, Yun NR, Lee JH, Kim JY, Kim Y, Bang JH, Song KH, Kim HB, Chung KH, Oh MD; Korea National Committee for Clinical Management of COVID-19. Clinical Course and Outcomes of Patients with Severe Acute Respiratory Syndrome Coronavirus 2 Infection: a Preliminary Report of the First 28 Patients from the Korean Cohort Study on COVID-19. J Korean Med Sci. 2020 Apr 6;35(13):e142. doi: 10.3346/jkms.2020.35.e142. PMID: 32242348; PMCID: PMC7131901. Disponible en:]]></string>
+    <string name="B11"><![CDATA[11.	Xu J, Zhao S, Teng T, Abdalla AE, Zhu W, Xie L, Wang Y, Guo X. Systematic Comparison of Two Animal-to-Human Transmitted Human Coronaviruses: SARS-CoV-2 and SARS-CoV. Viruses. 2020 Feb 22;12(2):244. doi: 10.3390/v12020244. PMID: 32098422; PMCID: PMC7077191. Disponible en:]]></string>
+    <string name="B12"><![CDATA[12.	Helmy YA, Fawzy M, Elaswad A, Sobieh A, Kenney SP, Shehata AA. The COVID-19 Pandemic: A Comprehensive Review of Taxonomy, Genetics, Epidemiology, Diagnosis, Treatment, and Control. J Clin Med. 2020 Apr 24;9(4):1225. doi: 10.3390/jcm9041225. PMID: 32344679; PMCID: PMC7230578. Disponible en:]]></string>
+    <string name="B13"><![CDATA[13.	Neurath MF. Covid-19 and immunomodulation in IBD. Gut. 2020 Apr 17:gutjnl-2020-321269. doi: 10.1136/gutjnl-2020-321269. Epub ahead of print. PMID: 32303609; PMCID: PMC7211083. Disponible en:]]></string>
+    <string name="B14"><![CDATA[14.	Rojas M, Rodríguez Y, Monsalve DM, Acosta-Ampudia Y, Camacho B, Gallo JE, Rojas-Villarraga A, Ramírez-Santana C, Díaz-Coronado JC, Manrique R, Mantilla RD, Shoenfeld Y, Anaya JM. Convalescent plasma in Covid-19: Possible mechanisms of action. Autoimmun Rev. 2020 May 5:102554. doi: 10.1016/j.autrev.2020.102554. Epub ahead of print. PMID: 32380316; PMCID: PMC7198427. Disponible en:]]></string>
+    <string name="B15"><![CDATA[15.	Tezer H, Bedir Demirdağ T. Novel coronavirus disease (COVID-19) in children. Turk J Med Sci. 2020 Apr 21;50(SI-1):592-603. doi: 10.3906/sag-2004-174. PMID: 32304191; PMCID: PMC7195991. Disponible en:]]></string>
+    <string name="B16"><![CDATA[16.	Zhang Y, Geng X, Tan Y, Li Q, Xu C, Xu J, Hao L, Zeng Z, Luo X, Liu F, Wang H. New understanding of the damage of SARS-CoV-2 infection outside the respiratory system. Biomed Pharmacother. 2020 Apr 28;127:110195. doi: 10.1016/j.biopha.2020.110195. Epub ahead of print. PMID: 32361161; PMCID: PMC7186209. Disponible en:]]></string>
+    <string name="B17"><![CDATA[17.	Kiamanesh O, Harper L, Wiskar K, Luksun W, McDonald M, Ross H, Woo A, Granton J. Lung Ultrasound for Cardiologists in the Time of COVID-19. Can J Cardiol. 2020 May 13:S0828-282X(20)30453-0. doi: 10.1016/j.cjca.2020.05.008. Epub ahead of print. PMID: 32416318; PMCID: PMC7235628. Disponible en:]]></string>
+    <string name="B18"><![CDATA[18.	Pereira RM, Bertolini D, Teixeira LO, Silla CN Jr, Costa YMG. COVID-19 identification in chest X-ray images on flat and hierarchical classification scenarios. Comput Methods Programs Biomed. 2020 May 8;194:105532. doi: 10.1016/j.cmpb.2020.105532. Epub ahead of print. PMID: 32446037; PMCID: PMC7207172. Disponible en:]]></string>
+    <string name="B19"><![CDATA[19.	Adair LB II, Ledermann EJ. Chest CT findings of early and progressive phase COVID-19 infection from a US patient. Radiol Case Rep. 2020 Apr 20;15(7):819–24. doi: 10.1016/j.radcr.2020.04.031. PMCID: PMC7182697. Disponible en:]]></string>
+    <string name="B20"><![CDATA[20.	Adair LB II, Ledermann EJ. Chest CT findings of early and progressive phase COVID-19 infection from a US patient. Radiol Case Rep. 2020 Apr 20;15(7):819–24. doi: 10.1016/j.radcr.2020.04.031. PMCID: PMC7182697. Disponible en:]]></string>
+    <string name="B21"><![CDATA[21.	Adair LB II, Ledermann EJ. Chest CT Findings of Early and Progressive Phase COVID-19 Infection from a US Patient. Radiol Case Rep. 2020 Apr 20. doi: 10.1016/j.radcr.2020.04.031. Epub ahead of print. PMCID: PMC7167589. Disponible en:]]></string>
+    <string name="B22"><![CDATA[22.	Volpicelli G, Lamorte A, Villén T. What s new in lung ultrasound during the COVID-19 pandemic. Intensive Care Med. 2020 May 4:1–4. doi: 10.1007/s00134-020-06048-9. Epub ahead of print. PMID: 32367169; PMCID: PMC7196717. Disponible en:]]></string>
+    <string name="B23"><![CDATA[23.	Volpicelli G, Gargani L. Sonographic signs and patterns of COVID-19 pneumonia. Ultrasound J. 2020 Apr 21;12(1):22. doi: 10.1186/s13089-020-00171-w. PMID: 32318891; PMCID: PMC7173353. Disponible en:]]></string>
+
+    <string name="Alexis"><![CDATA[ Contacto: Lic. Alexis Parra González \nGrupo de Desarrollo Hospital Lucia Iñiguez Landin ]]></string>
+    <string name="erick"><![CDATA[ Contacto: Lic. Eyris Cruz Sánchez \nGrupo de Desarrollo Hospital Lucia Iñiguez Landin  ]]></string>
+    <string name="Jose"><![CDATA[ Contacto: Dr. José Cabrales Fuentes \nEspecialista de 2do grado en Medicina General Integral \nResidente de Imagenologia Profesor Asistente \nInvestigador agregado  ]]></string>
+
+    <string name="slide_2_title">¡Radiología en la Pandemia COVID-19!</string>
+
+</resources>

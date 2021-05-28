@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_draw"
+    tools:context=".MainActivity2">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <RelativeLayout
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:textSize="16sp"
+                    android:padding="5sp"
+                    android:fontFamily="@font/teen"
+                    android:justificationMode="inter_word"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/A1" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_below="@+id/textView3"
+                    android:textSize="16sp"
+                    android:padding="5sp"
+                    android:fontFamily="@font/teen"
+                    android:justificationMode="inter_word"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/A2" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_below="@+id/textView4"
+                    android:textSize="16sp"
+                    android:padding="5sp"
+                    android:fontFamily="@font/teen"
+                    android:justificationMode="inter_word"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/A3" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_below="@+id/textView5"
+                    android:textSize="16sp"
+                    android:padding="5sp"
+                    android:fontFamily="@font/teen"
+                    android:justificationMode="inter_word"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="En base a esto, se recomienda:" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_below="@+id/textView6"
+                    android:textSize="16sp"
+                    android:padding="5sp"
+                    android:fontFamily="@font/teen"
+                    android:justificationMode="inter_word"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1. No usar la tomografía computarizada para detectar o como una prueba de primera línea para diagnosticar COVID-19." />
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_below="@+id/textView7"
+                    android:textSize="16sp"
+                    android:padding="5sp"
+                    android:fontFamily="@font/teen"
+                    android:justificationMode="inter_word"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2. Se debe usar la TC con moderación y reservarse para pacientes hospitalizados y sintomáticos con indicaciones clínicas específicas para la TC. Se deben seguir los procedimientos de control de infección apropiados antes de escanear pacientes posteriores." />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_below="@+id/textView8"
+                    android:textSize="16sp"
+                    android:padding="5sp"
+                    android:fontFamily="@font/teen"
+                    android:justificationMode="inter_word"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3. Las instalaciones pueden considerar el despliegue de unidades de radiografía portátiles en instalaciones de atención ambulatoria para su uso cuando las radiografías de tórax se consideren médicamente necesarias. Las superficies de estas máquinas se pueden limpiar fácilmente, evitando la necesidad de llevar a los pacientes a salas de radiografía." />
+
+                <TextView
+                    android:layout_below="@+id/textView9"
+                    android:textSize="16sp"
+                    android:padding="5sp"
+                    android:fontFamily="@font/teen"
+                    android:justificationMode="inter_word"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="4. Los radiólogos deben familiarizarse con la apariencia de la infección por COVID-19 en la TC para poder identificar hallazgos consistentes con infección en pacientes con imágenes por otras razones, teniendo en cuenta que:" />
+
+
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</LinearLayout>

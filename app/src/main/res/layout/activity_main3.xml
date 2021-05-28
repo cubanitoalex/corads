@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_draw"
+    tools:context=".MainActivity3">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <RelativeLayout
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_marginTop="10dp"
+                    android:textSize="16sp"
+                    android:padding="5sp"
+                    android:textStyle="bold"
+                    android:background="#00bfff"
+                    android:fontFamily="@font/teen"
+                    android:justificationMode="inter_word"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text=" A) Tomografía Axial Computarizada" />
+
+
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_below="@+id/textView12"
+                    android:textSize="16sp"
+                    android:padding="5sp"
+                    android:fontFamily="@font/teen"
+                    android:justificationMode="inter_word"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/A4" />
+
+
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_below="@+id/textView13"
+                    android:textSize="16sp"
+                    android:padding="5sp"
+                    android:fontFamily="@font/teen"
+                    android:justificationMode="inter_word"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="1.Parénquima pulmonar: (Figura 2 ,Figura 3)"/>
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_below="@+id/textView14"
+                    android:textSize="16sp"
+                    android:padding="5sp"
+                    android:fontFamily="@font/teen"
+                    android:justificationMode="inter_word"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/A5" />
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_below="@+id/textView15"
+                    android:textSize="16sp"
+                    android:padding="5sp"
+                    android:fontFamily="@font/teen"
+                    android:justificationMode="inter_word"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="2.Distribución: Periférica, Central o Difusa."/>
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_below="@+id/textView16"
+                    android:textSize="16sp"
+                    android:padding="5sp"
+                    android:fontFamily="@font/teen"
+                    android:justificationMode="inter_word"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="3.Campos pulmonares afectados: derecho o izquierdo ( superior ,medio , inferior ) Cualquiera de estos hallazgos en  uno  o más lóbulos con distribución periférica o difusa  pensar en Diagnóstico de COVID-19."/>
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_below="@+id/textView17"
+                    android:textSize="16sp"
+                    android:padding="5sp"
+                    android:fontFamily="@font/teen"
+                    android:justificationMode="inter_word"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="4.Otros hallazgos relevantes:"/>
+
+
+
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_below="@+id/textView18"
+                    android:textSize="16sp"
+                    android:padding="5sp"
+                    android:fontFamily="@font/teen"
+                    android:justificationMode="inter_word"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/A6" />
+
+
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card_view1"
+                    android:layout_marginTop="15dp"
+                    android:layout_below="@+id/textView19"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    card_view:cardCornerRadius="4dp">
+
+                    <RelativeLayout
+                        android:background="@drawable/gradient_draw"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <com.jsibbold.zoomage.ZoomageView
+                            android:id="@+id/image1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/figura1"
+                            app:zoomage_restrictBounds="false"
+                            app:zoomage_animateOnReset="true"
+                            app:zoomage_autoResetMode="UNDER"
+                            app:zoomage_autoCenter="true"
+                            app:zoomage_zoomable="true"
+                            app:zoomage_translatable="true"
+                            app:zoomage_minScale="0.6"
+                            app:zoomage_maxScale="8"/>
+
+                        <TextView
+                            android:id="@+id/textView19.1"
+                            android:layout_below="@+id/image1"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            android:padding="5sp"
+                            android:fontFamily="@font/teen"
+                            android:gravity="center_horizontal"
+                            android:justificationMode="inter_word"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Figura 2" />
+
+                        <com.airbnb.lottie.LottieAnimationView
+                            android:id="@+id/lottie1"
+                            android:layout_width="30dp"
+                            android:layout_below="@+id/textView19.1"
+                            android:layout_centerInParent="true"
+                            app:lottie_fileName="arrow-down.json"
+                            android:layout_height="30dp"
+                            android:gravity="center_horizontal"
+                            app:lottie_autoPlay="true"
+                            app:lottie_loop="true"/>
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/lottie1"
+                            android:fontFamily="@font/teen"
+                            android:justificationMode="inter_word"
+                            android:padding="5sp"
+                            android:text="TC de tórax sin contraste intravenoso 1 semana luego de comienzo de los síntomas observándose opacidades en vidrio deslustrado ( flecha color verde )."
+                            android:textSize="16sp" />
+
+                    </RelativeLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card_view2"
+                    android:layout_marginTop="15dp"
+                    android:layout_below="@+id/card_view1"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    card_view:cardCornerRadius="4dp">
+
+                    <RelativeLayout
+                        android:background="@drawable/gradient_draw"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <com.jsibbold.zoomage.ZoomageView
+                            android:id="@+id/image2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/figura2"
+                            app:zoomage_restrictBounds="false"
+                            app:zoomage_animateOnReset="true"
+                            app:zoomage_autoResetMode="UNDER"
+                            app:zoomage_autoCenter="true"
+                            app:zoomage_zoomable="true"
+                            app:zoomage_translatable="true"
+                            app:zoomage_minScale="0.6"
+                            app:zoomage_maxScale="8"/>
+
+
+                        <TextView
+                            android:id="@+id/textView20.1"
+                            android:layout_below="@+id/image2"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            android:padding="5sp"
+                            android:fontFamily="@font/teen"
+                            android:gravity="center_horizontal"
+                            android:justificationMode="inter_word"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Figura 3" />
+
+
+
+                        <com.airbnb.lottie.LottieAnimationView
+                            android:id="@+id/lottie2"
+                            android:layout_width="30dp"
+                            android:layout_below="@+id/textView20.1"
+                            android:layout_centerInParent="true"
+                            app:lottie_fileName="arrow-down.json"
+                            android:layout_height="30dp"
+                            android:gravity="center_horizontal"
+                            app:lottie_autoPlay="true"
+                            app:lottie_loop="true"/>
+
+
+
+
+                        <TextView
+                            android:layout_below="@+id/lottie2"
+                            android:textSize="16sp"
+                            android:padding="5sp"
+                            android:fontFamily="@font/teen"
+                            android:justificationMode="inter_word"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="TC de tórax sin contraste intravenoso 3 semanas luego de comienzo de los síntomas observándose engrosamiento  interseptal con patrón en empedrado (patrón reticular + vidrio deslustrado).Signos de Enfisema Compensatorio (flecha  color azul) con formación de cavidades (flecha  color naranja)." />
+
+
+                    </RelativeLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_below="@+id/card_view2"
+                    android:layout_marginTop="15dp"
+                    android:textSize="16sp"
+                    android:padding="5sp"
+                    android:fontFamily="@font/teen"
+                    android:justificationMode="inter_word"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/A7" />
+
+
+                <TextView
+                    android:id="@+id/textView23"
+                    android:layout_below="@+id/textView22"
+                    android:textSize="16sp"
+                    android:padding="5sp"
+                    android:fontFamily="@font/teen"
+                    android:justificationMode="inter_word"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/A8" />
+
+
+
+
+
+                <ImageView
+                    android:id="@+id/image3"
+                    android:layout_below="@+id/textView23"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/todo"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/figura3" />
+
+
+
+                <TextView
+                    android:id="@+id/textView24"
+                    android:layout_below="@+id/image3"
+                    android:textSize="16sp"
+                    android:padding="5sp"
+                    android:textStyle="bold"
+                    android:background="#00bfff"
+                    android:fontFamily="@font/teen"
+                    android:justificationMode="inter_word"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="B) Radiografía de Tórax" />
+
+
+                <TextView
+                    android:id="@+id/textView25"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/textView24"
+                    android:fontFamily="@font/teen"
+                    android:justificationMode="inter_word"
+                    android:padding="5sp"
+                    android:text="@string/A9"
+                    android:textSize="16sp" />
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card_view3"
+                    android:layout_marginTop="15dp"
+                    android:layout_below="@+id/textView25"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    card_view:cardCornerRadius="15dp">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:background="@drawable/gradient_draw"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <com.jsibbold.zoomage.ZoomageView
+                            android:id="@+id/image4"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/figura4"
+                            app:zoomage_restrictBounds="false"
+                            app:zoomage_animateOnReset="true"
+                            app:zoomage_autoResetMode="UNDER"
+                            app:zoomage_autoCenter="true"
+                            app:zoomage_zoomable="true"
+                            app:zoomage_translatable="true"
+                            app:zoomage_minScale="0.6"
+                            app:zoomage_maxScale="8"/>
+
+                        <TextView
+                            android:layout_below="@+id/image4"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            android:gravity="center_horizontal"
+                            android:fontFamily="@font/teen"
+                            android:justificationMode="inter_word"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Figura 1" />
+
+                        <com.airbnb.lottie.LottieAnimationView
+                            android:layout_marginTop="15dp"
+                            android:layout_width="30dp"
+                            app:lottie_fileName="arrow-down.json"
+                            android:layout_height="30dp"
+                            android:gravity="center_vertical"
+                            app:lottie_autoPlay="true"
+                            app:lottie_loop="true"/>
+
+
+
+
+                        <TextView
+                            android:textSize="16sp"
+                            android:padding="5sp"
+                            android:fontFamily="@font/teen"
+                            android:justificationMode="inter_word"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/A10" />
+
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+
+                <TextView
+                    android:id="@+id/textView27"
+                    android:layout_marginTop="15dp"
+                    android:layout_below="@+id/card_view3"
+                    android:textSize="16sp"
+                    android:padding="5sp"
+                    android:fontFamily="@font/teen"
+                    android:justificationMode="inter_word"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/A11" />
+
+
+
+
+                <ImageView
+                    android:id="@+id/image5"
+                    android:layout_below="@+id/textView27"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/todo"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/figura5" />
+
+
+                <TextView
+                    android:id="@+id/textView28"
+                    android:layout_below="@+id/image5"
+                    android:textSize="16sp"
+                    android:padding="5sp"
+                    android:fontFamily="@font/teen"
+                    android:justificationMode="inter_word"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Porcentaje y puntaje correspondiente al número de cuadrantes con infiltrado o
+consolidación en cada pulmón." />
+
+
+
+                <ImageView
+                    android:id="@+id/image6"
+                    android:layout_below="@+id/textView28"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/todo"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/figura6" />
+
+
+                <TextView
+                    android:id="@+id/textView29"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/image6"
+                    android:fontFamily="@font/teen"
+                    android:justificationMode="inter_word"
+                    android:padding="5sp"
+                    android:text="@string/A12"
+                    android:textSize="16sp" />
+
+
+
+                <com.jsibbold.zoomage.ZoomageView
+                    android:id="@+id/image7"
+                    android:layout_below="@+id/textView29"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/figura7"
+                    app:zoomage_restrictBounds="false"
+                    app:zoomage_animateOnReset="true"
+                    app:zoomage_autoResetMode="UNDER"
+                    app:zoomage_autoCenter="true"
+                    app:zoomage_zoomable="true"
+                    app:zoomage_translatable="true"
+                    app:zoomage_minScale="0.6"
+                    app:zoomage_maxScale="8"
+                    />
+
+
+
+                <TextView
+                    android:id="@+id/textView30"
+                    android:layout_below="@+id/image7"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:background="#00bfff"
+                    android:fontFamily="@font/teen"
+                    android:justificationMode="inter_word"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="C) Ultrasonido Pulmonar" />
+
+
+
+                <TextView
+                    android:id="@+id/textView31"
+                    android:layout_below="@+id/textView30"
+                    android:textSize="16sp"
+                    android:padding="5sp"
+                    android:fontFamily="@font/teen"
+                    android:justificationMode="inter_word"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/A13" />
+
+
+                <com.jsibbold.zoomage.ZoomageView
+                    android:id="@+id/image8"
+                    android:layout_below="@+id/textView31"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/figura8"
+                    app:zoomage_restrictBounds="false"
+                    app:zoomage_animateOnReset="true"
+                    app:zoomage_autoResetMode="UNDER"
+                    app:zoomage_autoCenter="true"
+                    app:zoomage_zoomable="true"
+                    app:zoomage_translatable="true"
+                    app:zoomage_minScale="0.6"
+                    app:zoomage_maxScale="8" />
+
+
+
+                <TextView
+                    android:id="@+id/textView32"
+                    android:layout_below="@+id/image8"
+                    android:textSize="16sp"
+                    android:padding="5sp"
+                    android:fontFamily="@font/teen"
+                    android:justificationMode="inter_word"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/A14" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</LinearLayout>
